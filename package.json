@@ -1,0 +1,21 @@
+{
+  "name": "aws_seminar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "email": "inline-email index.html --out email.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "parcel-bundler": "1.11.0",
+    "inline-email": "1.0.5"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
